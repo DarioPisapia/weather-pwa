@@ -1,0 +1,162 @@
+html {
+    height: 100%;
+    background-image: url(../img/rainbowBackground.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+body{
+    margin: 0;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #8bcdbef0;
+}
+
+#overlaySearch {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #8bcdbef0
+} 
+
+.loadingImage{
+    display: block;
+    margin-top:10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loading {
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 40px;
+    font-size: 60px;
+    color: rgb(120, 47, 147);
+}
+
+.headTitle {
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family:sans-serif;
+    font-size: 30px;
+    color:rgb(120, 47, 147);
+}
+
+#tableDiv {
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom:70px;
+    background-image: url(../img/loadingImage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+table {
+    height:  400px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom:20px;
+}
+
+td{
+    width: 33%;
+}
+p{
+    margin: 10px auto;
+}
+
+.weatherIcon {
+    width: 100px;
+}
+
+.mint {
+    color: blue
+}
+
+.maxt {
+    color: red
+}
+
+.location {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30%;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.search {
+    display: block;
+    margin: 0 auto;
+    font-family:sans-serif;
+    font-size: 30px;
+    background-color: rgb(248, 215, 250);
+    border-radius: 10px;
+}
+
+.formp{
+    color: rgb(120, 47, 147);
+    font-family:sans-serif;
+    font-size: 30px;
+    margin: 10 auto;
+    text-align: center;
+}
+
+@media (max-width: 450px){
+
+    header {
+        margin-bottom: 50px;
+    }
+
+    .loadingImage {
+        margin-top: 25%;
+    }
+
+    #tableDiv {      
+        max-height: 95vw;
+        max-width: 95vw;
+        margin-top: 30px;
+    }
+
+    table {
+        max-height: 95vw;
+        max-width: 95vw;
+        margin-top: 20px;
+        object-fit: cover;
+        font-size: 25px;
+    }
+
+    .location {
+        width: 90%;
+        height: 50px;
+        font-size: 30px;
+    }
+    form {
+        max-width: 95vw;
+        max-height: 95vh;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 300px){
+    table {
+        font-size: 20px;
+    }
+
+    .location {
+        font-size: 20px;
+    }
+}

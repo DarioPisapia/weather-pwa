@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smiley Sky</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/favicon.png" type="image/png">
+    <link rel="manifest" href="./manifest.json">
+    <script>
+        if ('serviceWorker' in navigator) {
+         // Path che contiene il service worker
+            navigator.serviceWorker.register('./service-worker.js').then(function(registration) {
+                console.log('Service worker installato correttamente, ecco lo scope:', registration.scope);
+            }).catch(function(error) {
+                console.log('Installazione service worker fallita:', error);
+            });
+        }
+    </script>
+</head>
+
+
+
+
+<body>
+    <div id="overlay">
+        <img class="loadingImage" src="./img/LoadingUnicorn.png">
+        <p class="loading">Loading...</p>  
+    </div>
+
+    <div id="overlaySearch">
+        <input type="text" class="location" id="location" placeholder="Where?"></input>
+        <button class="search" id="search" onclick="searchButton()" type="button">Will be a Smiley Sky?</button>
+
+    </div>
+
+    <h3 class="headTitle">Smiley Sky</h3>
+
+    <div id="tableDiv">
+      <table>
+        <tr class="row">
+            <td><p id="day1"></p><p id="date1"></p></td>
+            <td class="weatherIcon"><img src="" id="day1Icon"></td>
+            <td><p id="day1minT" class="mint"></p><p id="day1maxT" class="maxt"></p></td>
+        </tr>
+        <tr>
+            <td><p id="day2"></p><p id="date2"></p></td>
+            <td class="weatherIcon"><img src="" id="day2Icon"></td>
+            <td><p id="day2minT" class="mint"></p><p id="day2maxT" class="maxt"></p></td>
+        </tr>
+        <tr>
+            <td><p id="day3"></p><p id="date3"></p></td>
+            <td class="weatherIcon"><img src="" id="day3Icon"></td>
+            <td><p id="day3minT" class="mint"></p><p id="day3maxT" class="maxt"></p></td>
+        </tr>
+    </table>  
+    </div>
+    
+    <input type="hidden" id="locationHidden"></form>
+
+    <button class="search" id="currentPositionButton" type="button" onclick="getLocation()">Local Weather</button>
+    <p class="formp">or</p>
+    <button class='search' id="goToSearch" onclick="document.getElementById('overlaySearch').style.display = 'block'" type="button">Search</button>
+    <script src="./script/apiCall.js"></script>
+    <script src="./script/domEvents.js"></script>
+    <script src="./script/getPosition.js"></script>
+    <script src="./script/getInfo.js"></script>
+</body>
