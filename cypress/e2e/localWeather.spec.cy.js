@@ -12,7 +12,8 @@ describe ('get local weahter', () => {
     it('automatically return to main page after loading data', () => {
         cy.get('#currentPositionButton').click()
         cy.get('#overlay').should('be.visible')
-        cy.wait(7000)
+        cy.intercept('*/v1/**').as('apiReq')
+        cy.wait('@apiReq', {timeout:10000})
         cy.get('#overlay').should('not.be.visible')
     })
 

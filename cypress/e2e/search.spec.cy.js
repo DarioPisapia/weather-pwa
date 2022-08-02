@@ -12,21 +12,21 @@ describe('looking for weather in a city', () => {
 
     it('doing research will close overlay', () => {
         cy.contains('Search').click()
-        cy.get('input[placeholder="Where?"]').type('ferrara')
+        cy.get('input[placeholder="Where?"]').type('napoli')
         cy.contains('Will be a Smiley Sky?').click()
         cy.get('input[placeholder="Where?"]').should('not.be.visible')
     })
 
     it('hidden input set to city to search', () => {
         cy.contains('Search').click()
-        cy.get('input[placeholder="Where?"]').type('ferrara')
+        cy.get('input[placeholder="Where?"]').type('napoli')
         cy.contains('Will be a Smiley Sky?').click()
-        cy.get('input[type="hidden"]').should('have.value', 'ferrara')
+        cy.get('input[type="hidden"]').should('have.value', 'napoli')
     })
 
     it('table compliled after research', () => {
         cy.contains('Search').click()
-        cy.get('input[placeholder="Where?"]').type('ferrara')
+        cy.get('input[placeholder="Where?"]').type('napoli')
         cy.contains('Will be a Smiley Sky?').click()
         cy.get('#day1').should('not.have.text', '')
         cy.get('#date1').should('not.have.text', '')

@@ -1,0 +1,480 @@
+{
+    "location": {
+        "name": "Ferrara",
+        "region": "Emilia-Romagna",
+        "country": "Italy",
+        "lat": 44.83,
+        "lon": 11.58,
+        "tz_id": "Europe/Rome",
+        "localtime_epoch": 1659385917,
+        "localtime": "2022-08-01 22:31"
+    },
+    "current": {
+        "last_updated_epoch": 1659384900,
+        "last_updated": "2022-08-01 22:15",
+        "temp_c": 26.0,
+        "is_day": 0,
+        "condition": {
+            "text": "Clear",
+            "icon": "//cdn.weatherapi.com/weather/64x64/night/113.png",
+            "code": 1000
+        },
+        "wind_kph": 13.3,
+        "wind_degree": 133,
+        "wind_dir": "SE",
+        "precip_mm": 0.0,
+        "humidity": 46,
+        "cloud": 19,
+        "vis_km": 10.0,
+        "uv": 1.0,
+        "gust_kph": 28.1
+    },
+    "forecast": {
+        "forecastday": [
+            {
+                "date": "2022-08-01",
+                "date_epoch": 1659312000,
+                "day": {
+                    "maxtemp_c": 39.9,
+                    "mintemp_c": 21.4,
+                    "daily_will_it_rain": 0,
+                    "daily_chance_of_rain": 0,
+                    "daily_will_it_snow": 0,
+                    "daily_chance_of_snow": 0,
+                    "condition": {
+                        "text": "Sunny",
+                        "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+                        "code": 1000
+                    },
+                    "uv": 7.0
+                },
+                "astro": {
+                    "sunrise": "05:59 AM",
+                    "sunset": "08:40 PM",
+                    "moonrise": "09:29 AM",
+                    "moonset": "10:44 PM",
+                    "moon_phase": "Waxing Crescent",
+                    "moon_illumination": "22"
+                },
+                "hour": [
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    }
+                ]
+            },
+            {
+                "date": "2022-08-02",
+                "date_epoch": 1659398400,
+                "day": {
+                    "maxtemp_c": 37.1,
+                    "mintemp_c": 20.9,
+                    "daily_will_it_rain": 1,
+                    "daily_chance_of_rain": 87,
+                    "daily_will_it_snow": 0,
+                    "daily_chance_of_snow": 0,
+                    "condition": {
+                        "text": "Moderate rain",
+                        "icon": "//cdn.weatherapi.com/weather/64x64/day/302.png",
+                        "code": 1189
+                    },
+                    "uv": 6.0
+                },
+                "astro": {
+                    "sunrise": "06:00 AM",
+                    "sunset": "08:38 PM",
+                    "moonrise": "10:35 AM",
+                    "moonset": "11:03 PM",
+                    "moon_phase": "Waxing Crescent",
+                    "moon_illumination": "30"
+                },
+                "hour": [
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    }
+                ]
+            },
+            {
+                "date": "2022-08-03",
+                "date_epoch": 1659484800,
+                "day": {
+                    "maxtemp_c": 39.7,
+                    "mintemp_c": 21.5,
+                    "daily_will_it_rain": 0,
+                    "daily_chance_of_rain": 0,
+                    "daily_will_it_snow": 0,
+                    "daily_chance_of_snow": 0,
+                    "condition": {
+                        "text": "Sunny",
+                        "icon": "//cdn.weatherapi.com/weather/64x64/day/113.png",
+                        "code": 1000
+                    },
+                    "uv": 7.0
+                },
+                "astro": {
+                    "sunrise": "06:01 AM",
+                    "sunset": "08:37 PM",
+                    "moonrise": "11:44 AM",
+                    "moonset": "11:22 PM",
+                    "moon_phase": "Waxing Crescent",
+                    "moon_illumination": "37"
+                },
+                "hour": [
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    },
+                    {
+                        "condition": {
+                            
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
