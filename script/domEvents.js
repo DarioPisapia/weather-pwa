@@ -16,3 +16,16 @@ searchInput.addEventListener('keypress', (event)=>{
         document.getElementById("search").click()
     }
 })
+
+//add event listener to buttons
+document.getElementById('currentPositionButton').addEventListener('click', () => {
+    getLocation()
+})
+
+document.getElementById('search').addEventListener('click', () => {
+    searchButton()
+})
+
+document.getElementById('goToSearch').addEventListener('click', () => {
+    document.getElementById('overlaySearch').style.display = 'block'
+})

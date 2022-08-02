@@ -27,7 +27,7 @@
 
     <div id="overlaySearch">
         <input type="text" class="location" id="location" placeholder="Where?"></input>
-        <button class="search" id="search" onclick="searchButton()" type="button">Will be a Smiley Sky?</button>
+        <button class="search" id="search" type="button">Will be a Smiley Sky?</button>
 
     </div>
 
@@ -55,9 +55,10 @@
     
     <input type="hidden" id="locationHidden"></form>
 
-    <button class="search" id="currentPositionButton" type="button" onclick="getLocation()">Local Weather</button>
+    <button class="search" id="currentPositionButton" type="button">Local Weather</button>
     <p class="formp">or</p>
-    <button class='search' id="goToSearch" onclick="document.getElementById('overlaySearch').style.display = 'block'" type="button">Search</button>
+    <button class='search' id="goToSearch" type="button">Search</button>
+
     <script src="./script/apiCall.js"></script>
     <script src="./script/domEvents.js"></script>
     <script src="./script/getPosition.js"></script>
