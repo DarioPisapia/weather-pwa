@@ -1,8 +1,8 @@
-const getInformation = (jsn, n) => {
+const getInformation = (n, startingPath) => {
     //get icon, maxT and minT from api's json
-    const icon = jsn['forecast']['forecastday'][n]['day']['condition']['icon']
-    const maxT = `${jsn['forecast']['forecastday'][n]['day']['maxtemp_c']} °`
-    const minT = `${jsn['forecast']['forecastday'][n]['day']['mintemp_c']} °`
+    const icon = startingPath['condition']['icon']
+    const maxT = `${startingPath['maxtemp_c']} °`
+    const minT = `${startingPath['mintemp_c']} °`
 
     //get date's number and day
     const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']

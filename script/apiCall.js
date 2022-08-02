@@ -14,7 +14,8 @@ const getWeather = () => {
         
         //call the function to get the needed info a 'numOfDay' times
         for (let i=0; i<numOfDays; i++){
-            getInformation(jsn, i)
+            const startingPath = jsn['forecast']['forecastday'][i]['day']
+            getInformation(i, startingPath)
         }
     })   
 }
